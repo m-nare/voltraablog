@@ -1,0 +1,26 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// font-awesome
+@import "node_modules/font-awesome/scss/font-awesome.scss";
+
+// Bootswatch variables for slate theme
+//@import "node_modules/bootswatch/dist/litera/variables";
+
+// Bootswatch theme main CSS files
+//@import "node_modules/bootswatch/dist/litera/bootswatch";
+
+// custom css
+@import "custom";
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
